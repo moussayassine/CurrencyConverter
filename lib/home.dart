@@ -114,7 +114,7 @@ class _HomeState extends State<Home> {
     }
 
     if (unit == "Lira") {
-      _GBP = gb * 79000;
+      _GBP = gb / 79000;
     }
     if (unit == "Euro") {
       _GBP = gb * 0.86;
